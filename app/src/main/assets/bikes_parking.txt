@@ -1,0 +1,66 @@
+[
+{
+name: "Μέγαρο Μουσικής",
+lat: "40.598024",
+lng: "22.949264",
+BikesAvailable: "71",
+DocksAvailable: "29",
+TotalDocks: "100"
+},
+{
+name: "Βασ.Όλγας 179",
+lat: "40.59967",
+lng: "22.954543",
+BikesAvailable: "3",
+DocksAvailable: "97",
+TotalDocks: "100"
+},
+{
+name: "Parking ΧΑΝΘ",
+lat: "40.62734",
+lng: "22.951938",
+BikesAvailable: "12",
+DocksAvailable: "88",
+TotalDocks: "100"
+},
+{
+name: "Βασ.Ηρακλείου 47",
+lat: "40.633622",
+lng: "22.943261",
+BikesAvailable: "18",
+DocksAvailable: "82",
+TotalDocks: "100"
+},
+{
+name: "Δικαστήρια",
+lat: "40.64051",
+lng: "22.931639",
+BikesAvailable: "7",
+DocksAvailable: "93",
+TotalDocks: "100"
+},
+{
+name: "Λιμάνι (automated) ",
+lat: "40.63615121511",
+lng: "22.932018260956",
+BikesAvailable: "5",
+DocksAvailable: "9",
+TotalDocks: "14"
+},
+{
+name: "Όμιλος (automated)",
+lat: "40.610011273884",
+lng: "22.950487952232",
+BikesAvailable: "5",
+DocksAvailable: "9",
+TotalDocks: "14"
+},
+{
+name: "tif",
+lat: "40.630455859783",
+lng: "22.953738789558",
+BikesAvailable: "3",
+DocksAvailable: "8",
+TotalDocks: "11"
+}
+]

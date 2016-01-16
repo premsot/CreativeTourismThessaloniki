@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="thess.tourism.creative.creativetourismthessapp.CategoriesActivity">
+
+    <ImageView
+        android:id="@+id/cat_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ctt_logo_small" />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cat_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/choose_area_by"
+        android:textColor="@color/btn_selected_clr"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/current_distance_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/a_button_bg"
+        android:text="@string/current_distance"
+        android:textColor="@color/bg_color"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/starting_poi_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/current_distance_btn"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/a_button_bg"
+        android:text="@string/starting_point"
+        android:textColor="@color/bg_color"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/not_now_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/starting_poi_btn"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/a_button_bg"
+        android:text="@string/not_now"
+        android:textColor="@color/bg_color"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/not_now_point"
+        android:layout_marginTop="20dp">
+
+        <!--  <ImageButton
+              android:id="@+id/btn_back"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_toLeftOf="@+id/anc_view"
+              android:background="@drawable/back_btn_bg" />-->
+
+        <!--   <View
+               android:layout_width="15dp"
+               android:layout_height="1dp"
+               android:id="@+id/anc_view"
+               android:layout_centerHorizontal="true" />-->
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/back_btn_bg" />
+    </RelativeLayout>
+</RelativeLayout>

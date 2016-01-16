@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CreativeTourismThessApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="find_creatives_btn">FIND CREATIVES</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="current_distance">CURRENT DISTANCE</string>
+    <string name="starting_point">STARTING POINT</string>
+    <string name="choose_fields">CHOOSE FIELDS</string>
+    <string name="not_now">NOT NOW</string>
+    <string name="choose_area_by">CHOOSE AREA BY</string>
+    <string name="please_select_a_cat">Please select at least one category</string>
+    <string name="fail_to_find_close_creators">It seems that there are no close creators. Please try another option.</string>
+    <string name="fail_to_find_creators">It seems that there are no creators meeting your criteria. Please try another option.</string>
+</resources>

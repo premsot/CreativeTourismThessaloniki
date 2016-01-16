@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="current_distance">ΤΡΕΧΟΥΣΑ ΑΠΟΣΤΑΣΗ</string>
+    <string name="find_creatives_btn">ΒΡΕΣ ΔΗΜΙΟΥΡΓΟΥΣ</string>
+    <string name="starting_point">ΣΗΜΕΙΟ ΕΚΚΙΝΗΣΗΣ</string>
+    <string name="choose_fields">ΕΠΕΛΕΞΕ ΠΕΔΙΟ</string>
+    <string name="choose_area_by">ΕΠΕΛΕΞΕ ΠΕΡΙΟΧΗ ΒΑΣΗ</string>
+    <string name="please_select_a_cat">Επέλεξε τουλάχιστον μια κατηγορία</string>
+    <string name="not_now">ΟΧΙ ΤΩΡΑ</string>
+    <string name="fail_to_find_close_creators">Φαίνεται να μην υπάρχουν δημιουργοί σε κοντινή απόσταση. Παρακαλώ επιλέξτε καποιο αλλο κριτήριο</string>
+    <string name="fail_to_find_creators">Φαίνεται να μην υπάρχουν δημιουργοί με αυτα τα κριτήρια. Παρακαλώ επιλέξτε καποιο αλλο κριτήριο</string>
+
+</resources>
