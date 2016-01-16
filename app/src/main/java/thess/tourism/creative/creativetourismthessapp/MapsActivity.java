@@ -95,7 +95,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.setOnMarkerClickListener(this);
 
         for (BikesParkingPois aPoi : bikesParkingPois) {
-            mMap.addMarker(new MarkerOptions().position(new LatLng(aPoi.getLatitude(), aPoi.getLongitude())).title(aPoi.getName()));
+            mMap.addMarker(new MarkerOptions().position(new LatLng(aPoi.getLatitude(), aPoi.getLongitude())).title(aPoi.getName()).icon(BitmapDescriptorFactory.fromResource(R.drawable.bike)));
         }
 
         if (showAll) {
